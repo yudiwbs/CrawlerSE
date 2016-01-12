@@ -11,7 +11,7 @@ public class CrawlerSE {
     }
 
     public void proses() {
-        System.out.println("hello world");
+        System.out.println("hello world hoho!");
     }
 
     public static void main(String[] args) {
