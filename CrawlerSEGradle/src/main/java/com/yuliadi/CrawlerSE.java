@@ -149,10 +149,10 @@ public class CrawlerSE {
         //panjang 30 menit
 
         int[] arrBatasWaktu = new int[4];
-        arrBatasWaktu[0]  = 6;
-        arrBatasWaktu[1] = 13;
-        arrBatasWaktu[2] = 18;
-        arrBatasWaktu[3] = 24;
+        arrBatasWaktu[0] = 3;
+        arrBatasWaktu[1] = 5;
+        arrBatasWaktu[2] = 8;
+        arrBatasWaktu[3] = 10;
 
 
         //setelah itu baru tentukan random dalam rentang +- 30%
