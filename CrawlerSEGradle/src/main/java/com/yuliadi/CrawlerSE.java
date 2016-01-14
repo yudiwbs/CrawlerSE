@@ -11,6 +11,14 @@ import java.util.Date;
 
 /**
  * Created by yudiwbs on 12/01/2016.
+ *
+ *  Menggunakan database, ambil hipotesis lalu gunakan google search API untuk
+ *  mendapatkan hasil search, lalu disimpan ke DB dalam bentuk JSON
+ *
+ *  proses didelay secara random supaya tdk dianggan spam oleh Google
+ *
+ *
+ *
  */
 
 public class CrawlerSE {
@@ -141,9 +149,9 @@ public class CrawlerSE {
         //panjang 30 menit
 
         int[] arrBatasWaktu = new int[3];
-        arrBatasWaktu[0]  = 5;
-        arrBatasWaktu[1] = 15;
-        arrBatasWaktu[2] = 30;
+        arrBatasWaktu[0]  = 7;
+        arrBatasWaktu[1] = 17;
+        arrBatasWaktu[2] = 25;
 
         //setelah itu baru tentukan random dalam rentang +- 30%
         int pil = randomWithRange(0,2);
@@ -162,7 +170,7 @@ public class CrawlerSE {
         // nanti loop sampai 800
         init();
         //untuk test, satu kali dulu
-        for (int i=0;i<5;i++) {
+        for (int i=0;i<10;i++) {
             try {
                 //debug, sleep satu menit dulu
                 //waktu = 1; //DEBUG, nanti dibuang!
