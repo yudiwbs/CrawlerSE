@@ -148,13 +148,15 @@ public class CrawlerSE {
         //menengah 15 menit
         //panjang 30 menit
 
-        int[] arrBatasWaktu = new int[3];
-        arrBatasWaktu[0]  = 7;
-        arrBatasWaktu[1] = 17;
-        arrBatasWaktu[2] = 25;
+        int[] arrBatasWaktu = new int[4];
+        arrBatasWaktu[0]  = 6;
+        arrBatasWaktu[1] = 13;
+        arrBatasWaktu[2] = 18;
+        arrBatasWaktu[3] = 24;
+
 
         //setelah itu baru tentukan random dalam rentang +- 30%
-        int pil = randomWithRange(0,2);
+        int pil = randomWithRange(0,3);
         int batas = (int) Math.round(arrBatasWaktu[pil]*0.3);
         int batasAtas  = arrBatasWaktu[pil]+batas;
         int batasBawah = arrBatasWaktu[pil]-batas;
