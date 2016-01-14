@@ -111,7 +111,7 @@ public class CrawlerSE {
 
             //panggil API google, hasilnya simpan
             String hasilSE = urlReader(parH);
-            System.out.println("hasil crawl:"+hasilSE);
+            //System.out.println("hasil crawl:"+hasilSE);
 
             //save ke DB
 
