@@ -172,7 +172,7 @@ public class CrawlerSE {
         // nanti loop sampai 800
         init();
         //untuk test, satu kali dulu
-        for (int i=0;i<10;i++) {
+        for (int i=0;i<50;i++) {
             try {
                 //debug, sleep satu menit dulu
                 //waktu = 1; //DEBUG, nanti dibuang!
